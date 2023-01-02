@@ -4,31 +4,31 @@ programa {
 
   funcao inicio() {
     
-    real numero1, numero2, numero3, numero4, diferenca
+    inteiro numero1, numero2, numero3, numero4, diferenca
 		
-		escreva("Digite um número: ")
+		escreva("Digite um nï¿½mero: ")
 		leia(numero1)
 		
-		escreva("O número informado é: ", numero1, "\n")
+		escreva("O nï¿½mero informado ï¿½: ", numero1, "\n")
 		
-		escreva("Digite um número: ")
+		escreva("Digite um nï¿½mero: ")
 		leia(numero2)
 		
-		escreva("O número informado é: ", numero2, "\n")
+		escreva("O nï¿½mero informado ï¿½: ", numero2, "\n")
 
-    escreva("Digite um número: ")
+    escreva("Digite um nï¿½mero: ")
 		leia(numero3)
 		
-		escreva("O número informado é: ", numero3, "\n")
+		escreva("O nï¿½mero informado ï¿½: ", numero3, "\n")
 
-    escreva("Digite um número: ")
+    escreva("Digite um nï¿½mero: ")
 		leia(numero4)
 		
-		escreva("O número informado é: ", numero4, "\n")
+		escreva("O nï¿½mero informado ï¿½: ", numero4, "\n")
 
     diferenca = (numero1 * numero2) - (numero3 * numero4)
 
 
-    escreva("A diferença do produto entre ", numero1," e ", numero2," pelo produto entre ", numero3," e ",numero4," é de: ", diferenca, "\n")
+    escreva("A diferenï¿½a do produto entre ", numero1," e ", numero2," pelo produto entre ", numero3," e ",numero4," ï¿½ de: ", diferenca, "\n")
   }
 }
